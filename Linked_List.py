@@ -96,15 +96,3 @@ class Linked_List:
 			# link current node to next next node
 			current_node.set_linked_node(current_node.get_linked_node().get_linked_node())
 
-			
-l = Linked_List('Guus')			
-l.print_list()
-l.insert_beggining('Kylee')
-l.print_list()
-l.insert_end('Lexy')
-l.print_list()
-print(l.get_length())
-l.remove_node_value('Lexy')
-l.print_list()
-l.remove_node_index(0)
-l.print_list()
